@@ -1,0 +1,68 @@
+/* reset and full‐height on html/body */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+/* container for the two crossfading backgrounds */
+.bg-container {
+  position: relative;
+  height: 200vh; /* two screens tall */
+  width: 100%;
+  overflow: hidden;
+}
+
+/* shared styles for both bg layers */
+.bg-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: opacity 0.1s linear;
+  pointer-events: none;
+}
+
+/* overlay for text */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* text styling */
+.text-block h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.text-block p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* map below the two screens */
+.map-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
