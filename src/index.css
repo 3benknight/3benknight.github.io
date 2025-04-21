@@ -8,6 +8,7 @@ html, body, #root {
 
 .App {
   font-family: sans-serif;
+  overflow-y: scroll;
 }
 
 /* container for the two crossfading backgrounds */
@@ -15,7 +16,7 @@ html, body, #root {
   position: relative;
   height: 200vh; /* two screens tall */
   width: 100%;
-  overflow: hidden;
+  
 }
 
 /* shared styles for both bg layers */
@@ -66,3 +67,5 @@ html, body, #root {
   height: 100vh;
   width: 100%;
 }
+
+
