@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.1e9e0dca.css",
+    "main.js": "/react-gh-pages/static/js/main.25370ec8.js",
+    "static/js/453.018fd5ab.chunk.js": "/react-gh-pages/static/js/453.018fd5ab.chunk.js",
+    "static/media/home_img_1_umd.jpg": "/react-gh-pages/static/media/home_img_1_umd.1379689c22da466f970f.jpg",
+    "static/media/home_img_2_umd.jpg": "/react-gh-pages/static/media/home_img_2_umd.59acdb17d50ce86bcd7f.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.1e9e0dca.css.map": "/react-gh-pages/static/css/main.1e9e0dca.css.map",
+    "main.25370ec8.js.map": "/react-gh-pages/static/js/main.25370ec8.js.map",
+    "453.018fd5ab.chunk.js.map": "/react-gh-pages/static/js/453.018fd5ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e9e0dca.css",
+    "static/js/main.25370ec8.js"
+  ]
+}
