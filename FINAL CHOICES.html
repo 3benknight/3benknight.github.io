@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Energy Efficiency</title>
+    <link rel="stylesheet" href="./style.css">
+</head>    
+<img src="./umd.png" alt="University of Maryland, College Park Campus">
+<body>
+    <h1>Campus Energy Efficiency</h1>
+    <h2>Introduction</h2>
+    <p style="max-width:1350px;">
+        One of the most important aspects of any institution is its environmental
+        sustainability. As efforts continue to grow across the world, it is essential
+        for universities, such as the University of Maryland, College Park, to keep pace.
+        A key consideration for sustainability is the efficiency of energy consumption and
+        healthiness of carbon dioxide emissions. However, identifying areas for improvement
+        is often complex and time-consuming, requiring facility managers to
+        sort through large amounts of data and reconcile various factors. This interface aims 
+        to expedite and simplify this process by compiling several dashboards, allowing users
+        to quickly gain an understanding of previously unorganized data while analyzing the 
+        effect of several confounds on energy efficiency. 
+    </p>
+    <p style="max-width:1350px;">    
+        The page is navigated by scrolling through the sections organized by the 
+        corresponding operative tasks. Each visualization is accompanied with a description 
+        tab which provides the user with background and parameter information, chart explanation,
+        and reminders for interactivity features. Such features allow the user to hover over marks to 
+        identify specific buildings, filter buildings individually or by type, and specify ranges for 
+        energy efficiency metrics. These options provide flexibility to simplify the visualizations. Also,
+        many charts utilize pages that can be flipped through as a convenient way of sorting the data, a 
+        process that simultaneously controls for the aforementioned confounds. These features an efficient 
+        means for facility managers to identify buildings requiring renovation or additional conservational
+        measures. It is easily extendable to external data sets with information at the building level. 
+    </p>
+
+    <h2>Energy Consumption and Performance by Building Type</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="infoTabs(event, 'Viz1')">Visuals</button>
+        <button class="tablinks" onclick="infoTabs(event, 'Desc1')">Description</button>
+    </div>
+    <div id="Viz1" class="tabcontent">
+        <h3>consider a better dashboard, fix spacing</h3>
+        <!--added device = desktop parameter-->
+        <div class='tableauPlaceholder' id='viz1745940021152' style='position: relative'><noscript><a href='#'><img alt='TYPE DASH 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TYPEDASH3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;TYPEDASH3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TYPEDASH3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745940021152');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='1277px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="Desc1" class="tabcontent">
+        <p>description</p>    
+    </div>
+
+    <h2>Analyzing the Effect of Building Age</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="infoTabs(event, 'Viz2')">Visuals</button>
+        <button class="tablinks" onclick="infoTabs(event, 'Desc2')">Description</button>
+    </div>
+    <div id="Viz2" class="tabcontent">
+        <h3>collapse these into one, better dashboard</h3>
+        <!--added device = desktop parameters-->
+        <div class='tableauPlaceholder' id='viz1745940183712' style='position: relative'><noscript><a href='#'><img alt='AGE TYPE DASH 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;AGETYPEDASH2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;AGETYPEDASH2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;AGETYPEDASH2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745940183712');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div class='tableauPlaceholder' id='viz1745940144756' style='position: relative'><noscript><a href='#'><img alt='AGE TYPE DASH 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;AGETYPEDASH1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;AGETYPEDASH1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;AGETYPEDASH1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745940144756');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="Desc2" class="tabcontent">
+        <p>description</p>    
+    </div>
+
+    <h2>Energy Patterns Over Time</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="infoTabs(event, 'Viz3')">Visuals</button>
+        <button class="tablinks" onclick="infoTabs(event, 'Desc3')">Description</button>
+    </div>
+    <div id="Viz3" class="tabcontent">
+        <h3>collapse these into one, better dashboard</h3>
+        <!--added device = desktop parameters-->
+        <div class='tableauPlaceholder' id='viz1745941143502' style='position: relative'><noscript><a href='#'><img alt='TS DASH 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/> <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;TSDASH1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745941143502');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='827px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div class='tableauPlaceholder' id='viz1745942032833' style='position: relative'><noscript><a href='#'><img alt='TS DASH 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;TSDASH2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745942032833');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+        <div class='tableauPlaceholder' id='viz1745941578818' style='position: relative'><noscript><a href='#'><img alt='TS DASH 3 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;TSDASH3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;TSDASH3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745941578818');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='80%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="Desc3" class="tabcontent">
+        <p>description</p>    
+    </div>
+
+    <h2>Factoring in Renovation Costs</h2>
+    <div class="tab">
+        <button class="tablinks" onclick="infoTabs(event, 'Viz4')">Visuals</button>
+        <button class="tablinks" onclick="infoTabs(event, 'Desc4')">Description</button>
+    </div>
+    <div id="Viz4" class="tabcontent">
+        <h3>consider a better dashboard</h3>
+        <!--added device = desktop parameter-->
+        <!-- not loading for some reason-->
+        <div class='tableauPlaceholder' id='viz1745948565038' style='position: relative'><noscript><a href='#'><img alt='RENOVATION DASH 2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;RENOVATIONDASH2_1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='device' value='desktop'/><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='UMDCo22025&#47;RENOVATIONDASH2_1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;UM&#47;UMDCo22025&#47;RENOVATIONDASH2_1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1745948565038');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="Desc4" class="tabcontent">
+        <p>description. justify log scale</p>    
+    </div>
+
+</body>
+<script src="./main.js"></script>
+</html>
