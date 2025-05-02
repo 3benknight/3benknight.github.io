@@ -2,19 +2,25 @@ name: Build and Deploy React to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
     steps:
-      - name: Checkout repo
+      - name: Check out main
         uses: actions/checkout@v3
 
-      - name: Use Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: '18'
 
       - name: Install dependencies
         run: npm ci
@@ -22,7 +28,7 @@ jobs:
       - name: Build production bundle
         run: npm run build
 
-      - name: Upload build artifacts
+      - name: Upload build to GitHub Pages
         uses: actions/upload-pages-artifact@v1
         with:
           path: build
