@@ -1,7 +1,7 @@
 {
   "name": "nivo-charts",
   "version": "0.1.0",
-  "homepage": "https://3benknight.github.io/react-gh-pages",
+  "homepage": "https://3benknight.github.io",
   "private": true,
   "dependencies": {
     "@nivo/bar": "^0.88.0",
@@ -55,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
