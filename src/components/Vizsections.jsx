@@ -16,6 +16,7 @@ an intuitive color encoding later on.`,
     ],
     desc: (
       <div>
+        <h3>Charts</h3>
         <h4>Treemap (Top Left – Relative Energy Consumption Across Buildings):</h4>
         <p>This treemap visualizes individual buildings as proportional rectangles sized by total energy use. Larger blocks represent higher consumers. While specific building labels are limited to major contributors for clarity, users can hover over any segment to see detailed metrics. This layout helps identify energy-intensive buildings that may require investigation or intervention.</p>
         <h4>Box Plot (Top Right – Energy Performance by Building Type):</h4>
@@ -26,8 +27,9 @@ Negative values in the plot indicate buildings that outperform benchmarks (use l
         <p>These bar charts summarize energy use:</p>
         <strong>Average Total Energy:</strong> compares typical energy demand within each building type.
         <p/>
-        <strong>Total Energy:</strong> reflects cumulative use, highlighting where institutional consumption is concentrated.
-        <h4>Why Interactivity Matters:</h4>
+        <p>
+        <strong>Total Energy:</strong> reflects cumulative use, highlighting where institutional consumption is concentrated.</p>
+        <h3>Why Interactivity Matters</h3>
         <p>Due to the dense nature of these datasets, not all building marks are labeled by default to maintain visual readability. However, all charts are interactive—hovering over any element reveals detailed tooltips with building names, values, and performance insights.</p>
       </div>
     )
@@ -42,6 +44,7 @@ Negative values in the plot indicate buildings that outperform benchmarks (use l
     ],
     desc: (
       <div>
+        <h3>Charts</h3>
         <h4>Scatterplots (Top – Year Built vs Total CO₂ Emissions):</h4>
         <p>These charts show the total annual CO₂ emissions per building plotted against the year of construction. Each point is colored by EUI difference (benchmark minus actual), allowing for simultaneous interpretation of age, emissions, and performance.<br/>
 A building type selector and interactive legend allow for narrowing the view to specific facility categories. The first version isolates one building type at a time, while the second aggregates across all types for comparison.<br/>
@@ -50,7 +53,7 @@ This helps identify high-impact older buildings, as well as newer buildings that
         <p>This matrix-style visualization uses color and vertical alignment to represent EUI performance across building types and construction decades.<br/>
 Each circle represents a building, positioned by year built and color-coded by EUI benchmark difference (orange = worse than benchmark, blue = better).<br/>
 The interactive filters allow the user to isolate specific building names, types, or performance ranges. This visual is particularly useful for spotting systemic inefficiencies tied to specific time periods or facility functions.</p>
-        <h4>Reminder on Interactivity:</h4>
+        <h3>Reminder on Interactivity</h3>
         <p>To reduce clutter, building labels are not shown by default. However, hovering over any data point will reveal detailed information including the building name, total emissions, year built, and performance score. Users can filter by building type, performance threshold, or individual buildings using the control panel on the right.</p>
       </div>
     )
@@ -66,6 +69,7 @@ The interactive filters allow the user to isolate specific building names, types
     ],
     desc: (
       <div>
+        <h3>Charts</h3>
         <h4>Line Charts (Top – Overall Monthly Energy and by Building Type):</h4>
         <p>The top chart visualizes total campus-wide monthly energy consumption with a smoothed moving average overlay to reveal seasonal and long-term patterns.<br/>
 The second chart disaggregates these trends by building type (e.g., Labs, Offices, Classrooms), allowing users to see how each category contributes to total energy use over time.<br/>
@@ -80,7 +84,7 @@ Flat lines indicate stability; sudden jumps or drops in rank may signal operatio
         <p>Focused on the "Lab" category, this chart displays monthly energy profiles for individual buildings. Each line is color-coded by EUI performance (benchmark minus actual), with warmer tones indicating worse-than-expected performance.<br/>
 This visual enables users to identify poorly performing buildings that consume high energy consistently or show erratic seasonal variation.<br/>
 Filters on the right allow users to isolate specific buildings, adjust EUI ranges, and explore year-by-year behavior.</p>
-        <h4>Reminder on Interactivity:</h4>
+        <h3>Reminder on Interactivity:</h3>
         <p>These visuals are interactive: hover over any point or line to view precise values, and use filters (by year, UMD type, building name, or performance range) to narrow the focus. Building labels are intentionally hidden in dense charts to avoid clutter but can be revealed on demand.</p>
       </div>
     )
@@ -94,6 +98,7 @@ Filters on the right allow users to isolate specific buildings, adjust EUI range
     ],
     desc: (
       <div>
+        <h3>Charts</h3>
         <h4>Pie Chart (Top Left – Proportion of Renovation Cost by Building Type):</h4>
         <p>This chart shows the distribution of total renovation costs across UMD building categories. It highlights which types (e.g., Labs, Offices) are receiving the largest share of investment. The pie format provides a quick understanding of financial allocation across the campus portfolio.</p>
         <h4>Dot Plot (Top Right – EUI Performance vs Renovation Cost by Type):</h4>
@@ -102,7 +107,7 @@ Filters on the right allow users to isolate specific buildings, adjust EUI range
         <p>Focused on buildings classified as “Other,” this plot uses a log scale for renovation costs to better distinguish lower-cost projects. Each point represents a building and is shaded by EUI performance. The combination of log-transformed cost and performance differential helps isolate outliers: buildings that have spent significantly but still fall below benchmarks (or vice versa).</p>
         <h4>Reminder on Interactivity:</h4>
         <p>Users can filter by UMD Type and individual buildings, and hover over any point to view the exact EUI difference and cost. The bottom slider allows narrowing the range of EUI performance values for more focused analysis.</p>
-        <h4>Insight Summary:</h4>
+        <h3>Insight Summary</h3>
         <p>Laboratories account for the largest share of renovation spending, yet their energy performance varies widely—suggesting that high investment alone does not guarantee benchmark-level efficiency and that targeted performance tracking is essential.</p>
       </div>
     )

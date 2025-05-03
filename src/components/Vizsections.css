@@ -79,3 +79,32 @@
     margin-top: 0.3rem;
     margin-bottom: 0.5rem;
   }
+
+  /* h2 formatting */
+
+  .tableau-section h3 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tableau-section h3::before,
+  .tableau-section h3::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background: white;
+  }
+  
+  .tableau-section h3::before {
+    margin-top: 10px;
+    width: 150%;
+    top: -18px;
+  }
+  
+  .tableau-section h3::after {
+    width: 120%;
+    bottom: -8px;
+  }
+  
