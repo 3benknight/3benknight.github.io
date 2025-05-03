@@ -1,6 +1,6 @@
-/* full‐screen section with black bg, flex‐centered */
+/* full‐screen section with black bg, flex‐centered. Important for the background of the visualizations */
 .tableau-section {
-    height: 100vh;
+    min-height: 100vh;
     background-color: black;
     color: white;
     padding: 2rem;
@@ -10,10 +10,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    overflow-y: auto;
   }
   
-  /* titles & paragraphs centered and spaced */
+  /* titles & paragraphs centered and spaced. Make sure to keep margin otherwise page will get stretched. */
   .tableau-section .section {
     margin: 0.5rem 0;
   }
@@ -44,13 +43,12 @@
     background: #555;
   }
   
-  /* VIZ tabcontent: use flex‐column to stack h3 + viz */
+  /* Uses flex‐column to stack h3 + viz. */
   .vizTab {
     flex-direction: column;
     align-items: center;
   }
   
-  /* Each placeholder forced to 90% × 80% of viewport */
   .tableauPlaceholder {
     width: 60vw !important;
     height: 90vh !important;
@@ -58,7 +56,6 @@
     position: relative !important;
   }
   
-  /* Override the inline sizing and show object */
   .tableauPlaceholder object.tableauViz {
     width: 100% !important;
     height: 100% !important;
@@ -66,8 +63,19 @@
   }
   
   /* Description styles */
-  .descTab .paragraph {
-    max-width: 600px;
-    margin: 0 auto;
+  .descTab {
+    display: flex;
+    justify-content: center;
   }
   
+  .descTab .paragraph {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .descTab li strong {
+    display: block;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
