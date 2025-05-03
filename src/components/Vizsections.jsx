@@ -16,7 +16,6 @@ an intuitive color encoding later on.`,
     ],
     desc: (
       <div>
-        <p>This set of visualizations provides a multi-angle view of energy consumption and performance across the UMD campus building portfolio, segmented by building type.</p>
         <h4>Treemap (Top Left – Relative Energy Consumption Across Buildings):</h4>
         <p>This treemap visualizes individual buildings as proportional rectangles sized by total energy use. Larger blocks represent higher consumers. While specific building labels are limited to major contributors for clarity, users can hover over any segment to see detailed metrics. This layout helps identify energy-intensive buildings that may require investigation or intervention.</p>
         <h4>Box Plot (Top Right – Energy Performance by Building Type):</h4>
@@ -43,7 +42,6 @@ Negative values in the plot indicate buildings that outperform benchmarks (use l
     ],
     desc: (
       <div>
-        <p>This section explores how building age relates to energy efficiency and carbon impact across different building types at UMD. By connecting temporal characteristics with energy performance, these visualizations help prioritize which buildings should be targeted for retrofits or operational improvements.</p>
         <h4>Scatterplots (Top – Year Built vs Total CO₂ Emissions):</h4>
         <p>These charts show the total annual CO₂ emissions per building plotted against the year of construction. Each point is colored by EUI difference (benchmark minus actual), allowing for simultaneous interpretation of age, emissions, and performance.<br/>
 A building type selector and interactive legend allow for narrowing the view to specific facility categories. The first version isolates one building type at a time, while the second aggregates across all types for comparison.<br/>
@@ -68,7 +66,6 @@ The interactive filters allow the user to isolate specific building names, types
     ],
     desc: (
       <div>
-        <p>This section provides time-based visual insights into monthly energy consumption at UMD, both at the portfolio and building-type levels. The goal is to uncover usage seasonality, performance anomalies, and relative contributions across years.</p>
         <h4>Line Charts (Top – Overall Monthly Energy and by Building Type):</h4>
         <p>The top chart visualizes total campus-wide monthly energy consumption with a smoothed moving average overlay to reveal seasonal and long-term patterns.<br/>
 The second chart disaggregates these trends by building type (e.g., Labs, Offices, Classrooms), allowing users to see how each category contributes to total energy use over time.<br/>
@@ -97,7 +94,6 @@ Filters on the right allow users to isolate specific buildings, adjust EUI range
     ],
     desc: (
       <div>
-        <p>This section analyzes how renovation investments relate to energy performance across different building types. By examining Energy Use Intensity (EUI) differences alongside renovation costs, the dashboard supports value-based decision-making for energy retrofits.</p>
         <h4>Pie Chart (Top Left – Proportion of Renovation Cost by Building Type):</h4>
         <p>This chart shows the distribution of total renovation costs across UMD building categories. It highlights which types (e.g., Labs, Offices) are receiving the largest share of investment. The pie format provides a quick understanding of financial allocation across the campus portfolio.</p>
         <h4>Dot Plot (Top Right – EUI Performance vs Renovation Cost by Type):</h4>
