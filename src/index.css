@@ -45,12 +45,14 @@
 }
 
 .tableau-container {
+  justify-content: center;
   width: 100%;
   height: 100vh;       /* match viz to viewport height */
   margin-top: 2rem;
 }
 
 .tableau-container iframe {
+  justify-content: center;
   width: 100%;
   height: 100%;
   border: none;
