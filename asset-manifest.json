@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4816c83a.css",
+    "main.css": "/static/css/main.ee6dce70.css",
     "main.js": "/static/js/main.8873e70e.js",
     "static/js/453.018fd5ab.chunk.js": "/static/js/453.018fd5ab.chunk.js",
     "static/media/home_img_1_umd.jpg": "/static/media/home_img_1_umd.1379689c22da466f970f.jpg",
     "static/media/home_img_2_umd.jpg": "/static/media/home_img_2_umd.59acdb17d50ce86bcd7f.jpg",
     "static/media/home_img_3_umd.jpg": "/static/media/home_img_3_umd.f4e2368d1cc01bd9b710.jpg",
     "index.html": "/index.html",
-    "main.4816c83a.css.map": "/static/css/main.4816c83a.css.map",
+    "main.ee6dce70.css.map": "/static/css/main.ee6dce70.css.map",
     "main.8873e70e.js.map": "/static/js/main.8873e70e.js.map",
     "453.018fd5ab.chunk.js.map": "/static/js/453.018fd5ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4816c83a.css",
+    "static/css/main.ee6dce70.css",
     "static/js/main.8873e70e.js"
   ]
 }
